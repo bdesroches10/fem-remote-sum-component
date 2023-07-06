@@ -25,10 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile
+Mobile - Created breakpoint at 760px
 ![Mobile Layout](solution-images/mobile.jpg)
-
-- Created breakpoint at 760px
 
 Desktop
 ![Desktop Layout](solution-images/desktop.jpg)
@@ -38,8 +36,8 @@ Active State - mouse invisible from screenshot method
 
 ### Links
 
-- Solution URL: [GitHub Code]()
-- Live Site URL: [Deployed with GitHub]()
+- Solution URL: [GitHub Code](https://github.com/bdesroches10/fem-remote-sum-component)
+- Live Site URL: [Deployed with GitHub](https://bdesroches10.github.io/fem-remote-sum-component/)
 
 ## My process
 
