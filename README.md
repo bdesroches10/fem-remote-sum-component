@@ -26,12 +26,15 @@ Users should be able to:
 ### Screenshot
 
 Mobile - Created breakpoint at 760px
+
 ![Mobile Layout](solution-images/mobile.jpg)
 
 Desktop
+
 ![Desktop Layout](solution-images/desktop.jpg)
 
 Active State - mouse invisible from screenshot method
+
 ![Mouse Click on Continue Button](solution-images/active-state.jpg)
 
 ### Links
