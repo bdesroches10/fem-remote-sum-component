@@ -1,34 +1,42 @@
 :root {
-    font-family: 'Hanken Grotesk', sans-serif;;
+    height: 100vh;
+    font-family: 'Hanken Grotesk', sans-serif;
     font-size: 1.1225rem;
     padding: 0;
 }
 
 * {
     margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5em;
 }
 
 .overview {
     color: hsl(0, 0%, 100%);
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
-    border-radius: 10%;
-    margin-top: -2em;
+    border-radius: 1.5em;
+    margin-top: -1.5em;
     padding: 2em;
     text-align: center;
 }
 
 h1, .info {
-    color: hsla(0, 0%, 100%, 0.6);
+    color: hsl(241, 100%, 89%);
 }
 
 h1, h2 {
     font-size: 1.11rem;
-    margin-top: 1.25em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .circle {
-    height: 8em;
-    width: 8em;
+    height: 9em;
+    width: 9em;
     margin: 1em auto;
     border-radius: 100%;
     background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
@@ -48,12 +56,11 @@ h1, h2 {
 
 .summary {
     margin: 0 auto;
-    padding: 0 1em;
-    width: 85%;
+    padding: 0 2em;
 }
 
-.category {
-    margin: 1em auto;
+.category, .bttn{
+    margin: 0.75em auto;
     padding: 0.75em;
     border-radius: 0.833em;
     font-weight: bold;
@@ -63,6 +70,7 @@ h1, h2 {
 
 img, h3, .grade {   
     font-size: 1rem;
+    margin-right: 0.5em;
 }
 
 .reaction {
@@ -98,10 +106,44 @@ h2, .indiv-grade {
 .bttn {
     background-color: hsl(224, 30%, 27%);
     width: 100%;
-    padding: 0.5em;
+    margin-top: 2em;
     border-radius: 2em;
     border: 1px solid hsl(224, 30%, 27%);
-    font-size: 1.11rem;
-    font-weight: bold;
     color: hsl(0, 0%, 100%);
+}
+.bttn:active {
+    background-color: hsl(241, 81%, 54%);
+}
+
+@media screen and (min-width: 760px) {
+    body{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main {
+        max-width: 35.56em;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0.5em 1em 1em 1em hsl(221, 100%, 96%);
+    }
+
+   h1{
+        margin-top: 0;
+        margin-bottom: 0.5em;
+    }
+
+    .overview {
+        margin: 0;
+        width: 50%;
+        height: 100%;
+    }
+
+    .summary {
+        margin-top: 1em;
+        width: 50%;
+        height: 100%;
+    }
 }
